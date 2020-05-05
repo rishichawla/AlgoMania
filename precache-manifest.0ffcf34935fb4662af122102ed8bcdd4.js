@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "078c06bab629475775d0e7f05b566a59",
+    "revision": "163ceab9debed8b5d7491f19484ac71a",
     "url": "/AlgoMania/index.html"
   },
   {
-    "revision": "a2db47c15c72ee3ba751",
+    "revision": "ffe3272fa822025d11dc",
     "url": "/AlgoMania/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "74b0a9ac63c00f395a9b",
-    "url": "/AlgoMania/static/js/2.b5819e98.chunk.js"
+    "revision": "65d4da91a4843458f129",
+    "url": "/AlgoMania/static/js/2.94ecc18e.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/AlgoMania/static/js/2.b5819e98.chunk.js.LICENSE.txt"
+    "url": "/AlgoMania/static/js/2.94ecc18e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2db47c15c72ee3ba751",
-    "url": "/AlgoMania/static/js/main.c2bd9030.chunk.js"
+    "revision": "ffe3272fa822025d11dc",
+    "url": "/AlgoMania/static/js/main.396dfa16.chunk.js"
   },
   {
     "revision": "cc25c5de0d99d218f2e3",
