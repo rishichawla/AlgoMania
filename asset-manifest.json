@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/algomania/static/css/main.d1b05096.chunk.css",
-    "main.js": "/algomania/static/js/main.5eff15b3.chunk.js",
-    "main.js.map": "/algomania/static/js/main.5eff15b3.chunk.js.map",
-    "runtime-main.js": "/algomania/static/js/runtime-main.cc5dba8a.js",
-    "runtime-main.js.map": "/algomania/static/js/runtime-main.cc5dba8a.js.map",
-    "static/js/2.b5819e98.chunk.js": "/algomania/static/js/2.b5819e98.chunk.js",
-    "static/js/2.b5819e98.chunk.js.map": "/algomania/static/js/2.b5819e98.chunk.js.map",
-    "index.html": "/algomania/index.html",
-    "precache-manifest.55a98f0dc544d9cf7881dd39cae6b60f.js": "/algomania/precache-manifest.55a98f0dc544d9cf7881dd39cae6b60f.js",
-    "service-worker.js": "/algomania/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/algomania/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.b5819e98.chunk.js.LICENSE.txt": "/algomania/static/js/2.b5819e98.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/algomania/static/media/logo.5d5d9eef.svg"
+    "main.css": "/AlgoMania/static/css/main.d1b05096.chunk.css",
+    "main.js": "/AlgoMania/static/js/main.c2bd9030.chunk.js",
+    "main.js.map": "/AlgoMania/static/js/main.c2bd9030.chunk.js.map",
+    "runtime-main.js": "/AlgoMania/static/js/runtime-main.e571da5e.js",
+    "runtime-main.js.map": "/AlgoMania/static/js/runtime-main.e571da5e.js.map",
+    "static/js/2.b5819e98.chunk.js": "/AlgoMania/static/js/2.b5819e98.chunk.js",
+    "static/js/2.b5819e98.chunk.js.map": "/AlgoMania/static/js/2.b5819e98.chunk.js.map",
+    "index.html": "/AlgoMania/index.html",
+    "precache-manifest.750760ef131e6a0afd099054bbd9c40d.js": "/AlgoMania/precache-manifest.750760ef131e6a0afd099054bbd9c40d.js",
+    "service-worker.js": "/AlgoMania/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/AlgoMania/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b5819e98.chunk.js.LICENSE.txt": "/AlgoMania/static/js/2.b5819e98.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/AlgoMania/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc5dba8a.js",
+    "static/js/runtime-main.e571da5e.js",
     "static/js/2.b5819e98.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.5eff15b3.chunk.js"
+    "static/js/main.c2bd9030.chunk.js"
   ]
 }
