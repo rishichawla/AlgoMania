@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/algomania/static/css/main.d1b05096.chunk.css",
+    "main.js": "/algomania/static/js/main.5eff15b3.chunk.js",
+    "main.js.map": "/algomania/static/js/main.5eff15b3.chunk.js.map",
+    "runtime-main.js": "/algomania/static/js/runtime-main.cc5dba8a.js",
+    "runtime-main.js.map": "/algomania/static/js/runtime-main.cc5dba8a.js.map",
+    "static/js/2.b5819e98.chunk.js": "/algomania/static/js/2.b5819e98.chunk.js",
+    "static/js/2.b5819e98.chunk.js.map": "/algomania/static/js/2.b5819e98.chunk.js.map",
+    "index.html": "/algomania/index.html",
+    "precache-manifest.55a98f0dc544d9cf7881dd39cae6b60f.js": "/algomania/precache-manifest.55a98f0dc544d9cf7881dd39cae6b60f.js",
+    "service-worker.js": "/algomania/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/algomania/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b5819e98.chunk.js.LICENSE.txt": "/algomania/static/js/2.b5819e98.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/algomania/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc5dba8a.js",
+    "static/js/2.b5819e98.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.5eff15b3.chunk.js"
+  ]
+}
