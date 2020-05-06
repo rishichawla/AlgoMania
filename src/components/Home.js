@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import { Grid } from '@material-ui/core';
 import MenuAppBar from './MenuAppBar'
-import CodeForm from './CodeForm'
+import AceEditor from 'react-ace';
+import "ace-builds/src-noconflict/mode-c_cpp";
+import "ace-builds/src-noconflict/mode-python";
+import "ace-builds/src-noconflict/mode-javascript";
+import "ace-builds/src-noconflict/mode-java";
 
 class Home extends Component {
 
     constructor(props) {
         super(props);
-    
-        this.state = {mycode: ''};
+        
+        this.state = {mycode: '',
+        extension:''};
       }
 
     loadData = (url) => {
@@ -39,6 +44,14 @@ class Home extends Component {
   .then(response => response.json())
   .then((jsonData) => {
     // jsonData is parsed json object received from url
+    
+    if(jsonData[jsonData.length-1]['download_url'].split(".")[3].toLowerCase() == 'c' ||
+    jsonData[jsonData.length-1]['download_url'].split(".")[3].toLowerCase() == 'cpp' || 
+    jsonData[jsonData.length-1]['download_url'].split(".")[3].toLowerCase() == 'c++') this.setState({
+        extension : 'c_cpp'
+    })
+    else if(jsonData[jsonData.length-1]['download_url'].split(".")[3].toLowerCase() == 'py') this.setState({extension:'python'})
+    else this.setState({extension : jsonData[jsonData.length-1]['download_url'].split(".")[3].toLowerCase()})
     this.loadData(jsonData[jsonData.length-1]['download_url'])
   })
   .catch((error) => {
@@ -52,16 +65,23 @@ class Home extends Component {
         return (
             <>
             <MenuAppBar />
-            <Grid container>
+            <Grid container style={{position:'fixed'}}>
                 <Grid item md={6}>
-                    <h2>Code</h2>
-                <pre style={{overflow:'scroll'}}>
-                { this.state.mycode  }
+                <pre>
+                <AceEditor 
+                mode={this.state.extension}
+                width='100%'
+                theme='github'
+                    readOnly
+                    value= { this.state.mycode  }
+                    fontSize='18px'
+                    />
+                
     </pre>
                 </Grid>
 
                 <Grid item md={6}>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNLsUI8EeBZtvTEcpg2NBAad51sN4V_GA-WkDQvPJ3YPj9tg/viewform?embedded=true" width="640" height="979" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNLsUI8EeBZtvTEcpg2NBAad51sN4V_GA-WkDQvPJ3YPj9tg/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </Grid>
             
             </Grid>
