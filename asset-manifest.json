@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/AlgoMania/static/css/main.d1b05096.chunk.css",
-    "main.js": "/AlgoMania/static/js/main.396dfa16.chunk.js",
-    "main.js.map": "/AlgoMania/static/js/main.396dfa16.chunk.js.map",
+    "main.js": "/AlgoMania/static/js/main.dcfde4ba.chunk.js",
+    "main.js.map": "/AlgoMania/static/js/main.dcfde4ba.chunk.js.map",
     "runtime-main.js": "/AlgoMania/static/js/runtime-main.e571da5e.js",
     "runtime-main.js.map": "/AlgoMania/static/js/runtime-main.e571da5e.js.map",
-    "static/js/2.94ecc18e.chunk.js": "/AlgoMania/static/js/2.94ecc18e.chunk.js",
-    "static/js/2.94ecc18e.chunk.js.map": "/AlgoMania/static/js/2.94ecc18e.chunk.js.map",
+    "static/js/2.631eb6e5.chunk.js": "/AlgoMania/static/js/2.631eb6e5.chunk.js",
+    "static/js/2.631eb6e5.chunk.js.map": "/AlgoMania/static/js/2.631eb6e5.chunk.js.map",
     "index.html": "/AlgoMania/index.html",
-    "precache-manifest.0ffcf34935fb4662af122102ed8bcdd4.js": "/AlgoMania/precache-manifest.0ffcf34935fb4662af122102ed8bcdd4.js",
+    "precache-manifest.7d8d533e8f64052789a774e8e0ae8fae.js": "/AlgoMania/precache-manifest.7d8d533e8f64052789a774e8e0ae8fae.js",
     "service-worker.js": "/AlgoMania/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/AlgoMania/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.94ecc18e.chunk.js.LICENSE.txt": "/AlgoMania/static/js/2.94ecc18e.chunk.js.LICENSE.txt",
+    "static/js/2.631eb6e5.chunk.js.LICENSE.txt": "/AlgoMania/static/js/2.631eb6e5.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/AlgoMania/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e571da5e.js",
-    "static/js/2.94ecc18e.chunk.js",
+    "static/js/2.631eb6e5.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.396dfa16.chunk.js"
+    "static/js/main.dcfde4ba.chunk.js"
   ]
 }
