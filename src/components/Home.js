@@ -65,8 +65,8 @@ class Home extends Component {
         return (
             <>
             <MenuAppBar />
-            <Grid container style={{position:'fixed'}}>
-                <Grid item md={6}>
+            <Grid container>
+                <Grid item md={6} xs={12}>
                 <pre>
                 <AceEditor 
                 mode={this.state.extension}
@@ -80,7 +80,7 @@ class Home extends Component {
     </pre>
                 </Grid>
 
-                <Grid item md={6}>
+                <Grid item md={6} xs={12}>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNLsUI8EeBZtvTEcpg2NBAad51sN4V_GA-WkDQvPJ3YPj9tg/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </Grid>
             
