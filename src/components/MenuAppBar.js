@@ -6,6 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import {withRouter} from 'react-router';
+import {
+  Link
+} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,8 +22,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
 }));
-
-export default function ButtonAppBar() {
+function MenuAppBar() {
   const classes = useStyles();
 
   return (
@@ -30,9 +33,13 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             AlgoMania
           </Typography>
-          <Button color="inherit"></Button>
+          <Button variant="contained" color="default">
+          <Link  style={{textDecoration:'none'}} to="/leaderboard">Leaderboard</Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </div>
   );
 }
+
+export default withRouter(MenuAppBar)

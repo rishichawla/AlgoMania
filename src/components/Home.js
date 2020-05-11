@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid } from '@material-ui/core';
-import MenuAppBar from './MenuAppBar'
 import AceEditor from 'react-ace';
 import "ace-builds/src-noconflict/mode-c_cpp";
 import "ace-builds/src-noconflict/mode-python";
@@ -64,7 +63,8 @@ class Home extends Component {
        
         return (
             <>
-            <MenuAppBar />
+           
+            
             <Grid container>
                 <Grid item md={6} xs={12}>
                 <pre>
