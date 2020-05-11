@@ -14,8 +14,8 @@ export default function MainComponent() {
         
         <Router>
         <MenuAppBar />
-            <Route exact path="/" component={Home} />
-            <Route exact path="/leaderboard" component={Leaderboard} />
+            <Route exact path="/AlgoMania/" component={Home} />
+            <Route exact path="/AlgoMania/leaderboard" component={Leaderboard} />
         </Router>
        </>
     );

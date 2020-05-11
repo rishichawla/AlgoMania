@@ -34,7 +34,7 @@ function MenuAppBar() {
             AlgoMania
           </Typography>
           <Button variant="contained" color="default">
-          <Link  style={{textDecoration:'none'}} to="/leaderboard">Leaderboard</Link>
+          <Link  style={{textDecoration:'none'}} to="/AlgoMania/leaderboard">Leaderboard</Link>
           </Button>
         </Toolbar>
       </AppBar>
