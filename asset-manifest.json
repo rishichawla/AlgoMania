@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AlgoMania/static/css/main.d1b05096.chunk.css",
-    "main.js": "/AlgoMania/static/js/main.9779056c.chunk.js",
-    "main.js.map": "/AlgoMania/static/js/main.9779056c.chunk.js.map",
+    "main.js": "/AlgoMania/static/js/main.82aed73d.chunk.js",
+    "main.js.map": "/AlgoMania/static/js/main.82aed73d.chunk.js.map",
     "runtime-main.js": "/AlgoMania/static/js/runtime-main.e571da5e.js",
     "runtime-main.js.map": "/AlgoMania/static/js/runtime-main.e571da5e.js.map",
     "static/js/2.8c161836.chunk.js": "/AlgoMania/static/js/2.8c161836.chunk.js",
     "static/js/2.8c161836.chunk.js.map": "/AlgoMania/static/js/2.8c161836.chunk.js.map",
     "index.html": "/AlgoMania/index.html",
-    "precache-manifest.d672f7e61487f355eb696664d425c8e6.js": "/AlgoMania/precache-manifest.d672f7e61487f355eb696664d425c8e6.js",
+    "precache-manifest.bdfef39d1bc97d20cbeab7438b5f5938.js": "/AlgoMania/precache-manifest.bdfef39d1bc97d20cbeab7438b5f5938.js",
     "service-worker.js": "/AlgoMania/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/AlgoMania/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.8c161836.chunk.js.LICENSE.txt": "/AlgoMania/static/js/2.8c161836.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e571da5e.js",
     "static/js/2.8c161836.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.9779056c.chunk.js"
+    "static/js/main.82aed73d.chunk.js"
   ]
 }
