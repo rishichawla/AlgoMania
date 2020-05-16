@@ -65,6 +65,8 @@ class Home extends Component {
                     this.setState({extension: 'c_cpp'})
                 else if (file.fileType === 'py')
                     this.setState({extension: 'python'})
+                else if (file.fileType === 'js')
+                	this.setState({extension: 'javascript'})
                 else
                     this.setState({extension: file.fileType})
                 this.loadData(file.downloadUrl);
